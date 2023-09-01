@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    
+}
+.header {
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60%;
+    font-size: 24px;
+    font-weight: bolder;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+}
+.content {
+    display: flex;
+    
+    justify-content: space-between;
+    flex:1;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    gap:100px;
+}
+
+.header ul {
+    display: flex;
+    gap: 12px;
+    list-style:none;
+    font-size: 18px;
+}
+.title-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    
+    
+    
+
+          
+}
+.placeholder {
+    display: flex;
+    flex:1;
+    align-items: center ;
+    justify-content: flex-end;
+    
+    
+}
+
+
+.to-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.to-left h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+.to-left button {
+    max-width: 80px;
+    padding: 5px;
+    background-color:#3882F6;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+}
