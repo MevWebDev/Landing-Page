@@ -62,6 +62,10 @@ body {
     justify-content: flex-end;
     
     
+    
+}
+.placeholder img {
+    max-height: 300px;
 }
 
 
